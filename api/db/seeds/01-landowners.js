@@ -11,7 +11,6 @@ exports.seed = function(knex) {
           first_name: "Evan",
           last_name: "Pena",
           email: "evan_pena@example.com",
-          username: "yellowmouse215",
           password: "pass123"
         },
         {
@@ -20,7 +19,6 @@ exports.seed = function(knex) {
           first_name: "Irma",
           last_name: "Richards",
           email: "irma_richards@example.com",
-          username: "ticklishostrich764",
           password: "pass123"
         },
         {
@@ -29,7 +27,6 @@ exports.seed = function(knex) {
           first_name: "Claire",
           last_name: "Fisher",
           email: "claire_fisher@example.com",
-          username: "tinyleopard720",
           password: "pass123"
         },
         {
@@ -38,7 +35,6 @@ exports.seed = function(knex) {
           first_name: "Eduardo",
           last_name: "Henry",
           email: "eduardo_henry@example.com",
-          username: "crazyfrog418",
           password: "pass123"
         },
         {
@@ -47,7 +43,6 @@ exports.seed = function(knex) {
           first_name: "Albert",
           last_name: "Alexander",
           email: "albert_alexander@example.com",
-          username: "greenkoala518",
           password: "pass123"
         },
         {
@@ -56,7 +51,6 @@ exports.seed = function(knex) {
           first_name: "Audrey",
           last_name: "Robertson",
           email: "audrey_robertson@example.com",
-          username: "beautifulbutterfly101",
           password: "pass123"
         },
         {
@@ -65,7 +59,6 @@ exports.seed = function(knex) {
           first_name: "Bessie",
           last_name: "Bell",
           email: "bessie_bell@example.com",
-          username: "bessiebell",
           password: "pass123"
         },
         {
@@ -74,7 +67,6 @@ exports.seed = function(knex) {
           first_name: "Shawn",
           last_name: "Murphy",
           email: "shawn_murphy@example.com",
-          username: "silverduck204",
           password: "pass123"
         },
         {
@@ -82,8 +74,7 @@ exports.seed = function(knex) {
           avatar: "https://unsplash.com/photos/OhKElOkQ3RE",
           first_name: "Zack",
           last_name: "Miles",
-          email: "zack_miles",
-          username: "zackmiles",
+          email: "zack_miles@example.com",
           password: "pass123"
         },
         {
@@ -92,7 +83,6 @@ exports.seed = function(knex) {
           first_name: "Scarlett",
           last_name: "Mckinney",
           email: "scarlett_mckinney@example.com",
-          username: "scarlettmckinney",
           password: "pass123"
         }
       ]);

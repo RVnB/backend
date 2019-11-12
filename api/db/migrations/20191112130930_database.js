@@ -4,21 +4,19 @@ exports.up = function(knex) {
       tbl.increments("landowner_id");
 
       tbl.string("avatar", 255);
-      tbl.string("email", 128).notNullable.unique;
-      tbl.string("username", 128).notNullable.unique;
-      tbl.string("password", 128);
       tbl.string("first_name", 128).notNullable;
       tbl.string("last_name", 128).notNullable;
+      tbl.string("email", 128).notNullable.unique;
+      tbl.string("password", 128);
     })
     .createTable("users", tbl => {
       tbl.increments("user_id");
 
       tbl.string("avatar", 255);
-      tbl.string("email", 128).notNullable.unique;
-      tbl.string("username", 128).notNullable.unique;
-      tbl.string("password", 128);
       tbl.string("first_name", 128).notNullable;
       tbl.string("last_name", 128).notNullable;
+      tbl.string("email", 128).notNullable.unique;
+      tbl.string("password", 128);
     })
     .createTable("amenities", tbl => {
       tbl.increments("amenity_id");
