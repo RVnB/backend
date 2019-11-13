@@ -10,6 +10,7 @@ exports.seed = function(knex) {
           avatar: "https://unsplash.com/photos/DYBs6Usgtg0",
           first_name: "Max",
           last_name: "Edwards",
+          username: "maxedwards",
           email: "max_edwards@example.com",
           password: "pass123"
         },
@@ -18,6 +19,7 @@ exports.seed = function(knex) {
           avatar: "https://unsplash.com/photos/WzfWGiF3d98",
           first_name: "Candace",
           last_name: "Richards",
+          username: "candacerichards",
           email: "Candace_richards@example.com",
           password: "pass123"
         }
