@@ -6,6 +6,7 @@ exports.up = function(knex) {
       tbl.string("avatar", 255);
       tbl.string("first_name", 128).notNullable;
       tbl.string("last_name", 128).notNullable;
+      tbl.string("username", 32).notNullable;
       tbl.string("email", 128).notNullable.unique;
       tbl.string("password", 128);
     })
@@ -15,6 +16,7 @@ exports.up = function(knex) {
       tbl.string("avatar", 255);
       tbl.string("first_name", 128).notNullable;
       tbl.string("last_name", 128).notNullable;
+      tbl.string("username", 32).notNullable;
       tbl.string("email", 128).notNullable.unique;
       tbl.string("password", 128);
     })
